@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Teko:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(123, 106, 230);
+  font-family: 'Teko', sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.calculadora{
+  width: 275px;
+  height: 385px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(79, 82, 93);
+  box-shadow: 5px 5px 7px black;
+}
+
+table{
+  width: 100%;
+}
+
+.resultado{
+  height: 55px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  line-height: 60px;
+  text-align: right;
+  font-size: 50px;
+  border-radius: 5px;
+  background-color: rgb(226, 241, 255);
+  border: 2px solid rgb(35, 38, 56);
+}
+
+.buttom-cuadrado{
+  width: 50px;
+  height: 50px;
+}
+
+.numeros{
+  background-color: rgb(35, 38, 56);
+  border: none;
+  box-shadow: 1.2px 1.2px 1.5px rgb(196, 195, 195) inset, -1.2px -1.2px 2px rgb(21, 24, 37) inset;
+  color: white;
+  font-size: 18px;
+}
+
+.buttom-cero{
+  height: 50px;
+  width: 105px;
+}
+
+.buttom-suma{ 
+  height: 105px;
+  width: 50px;
+}
+
+
+.operadores{
+  background-color: rgb(244, 172, 66);
+  border: none;
+  box-shadow: 2px 2px  rgb(129, 132, 141) inset, -2px -2px  rgb(24, 25, 36) inset;
+  color: white;
+  font-size: 18px;
+}
+
+.igual{
+  background-color: rgb(132, 91, 147);
+  border: none;
+  box-shadow: 1.2px 1.2px 1.5px rgb(196, 195, 195) inset, -2px -2px  rgb(24, 25, 36) inset;
+  color: white;
+  font-size: 18px;
+}
+
+.borrar{
+  background-color: rgb(207, 72, 88);
+  border: none;
+  box-shadow: 2px 2px  rgb(129, 132, 141) inset, -2px -2px  rgb(24, 25, 36) inset;
+  color: white;
+  font-size: 18px;
+}

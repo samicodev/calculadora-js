@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculadora</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload=init()>
+  <main>
+    
+    <div class="calculadora">
+      <table>
+        <tr>
+          <td colspan="5">
+            <div class="resultado" id="resultado"> </div>
+          </td>
+        </tr>
+        <tr>
+          <td><button class="buttom-cuadrado numeros" id="siete" type="button">7</button></td>
+          <td><button class="buttom-cuadrado numeros" id="ocho" type="button">8</button></td>
+          <td><button class="buttom-cuadrado numeros" id="nueve" type="button">9</button></td>
+          <td><button class="buttom-cuadrado borrar" id="ce" type="button">CE</button></td>
+          <td><button class="buttom-cuadrado borrar" id="c" type="button">C</button></td>
+        </tr>
+        <tr>
+          <td><button class="buttom-cuadrado numeros" id="cuatro" type="button">4</button></td>
+          <td><button class="buttom-cuadrado numeros" id="cinco" type="button">5</button></td>
+          <td><button class="buttom-cuadrado numeros" id="seis" type="button">6</button></td>
+          <td><button class="buttom-cuadrado operadores" id="multiplicacion" type="button">*</button></td>
+          <td><button class="buttom-cuadrado operadores" id="division" type="button">/</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="buttom-cuadrado numeros" id="uno" type="button">1</button></td>
+          <td><button class="buttom-cuadrado numeros" id="dos" type="button">2</button></td>
+          <td><button class="buttom-cuadrado numeros" id="tres" type="button">3</button></td>
+          <td><button class="buttom-cuadrado operadores" id="resta" type="button">-</button></td>
+          <td rowspan="2"><button class="buttom-suma operadores" id="suma" type="button">+</button></td>
+        </tr>
+
+        <tr>
+          <td colspan="2"><button class="buttom-cero numeros" id="cero" type="button">0</button></td>
+          <td><button class="buttom-cuadrado numeros" id="punto" type="button">.</button></td>
+          <td><button class="buttom-cuadrado igual" id="igual" type="button">=</button></td>
+        </tr>
+
+
+      </table>
+
+    </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
